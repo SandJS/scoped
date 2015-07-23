@@ -1,0 +1,37 @@
+{
+  "name": "sand-scoped",
+  "version": "1.0.0",
+  "description": "Sand.js plugin to scope classes and functions to a single request.",
+  "main": "lib/scoped",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sand/scoped.git"
+  },
+  "keywords": [
+    "Sand.js",
+    "class",
+    "scope",
+    "request"
+  ],
+  "author": "Adam Jaso <ajaso@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sand/scoped/issues"
+  },
+  "homepage": "https://github.com/sand/scoped#readme",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "request": "^2.60.0",
+    "require-all": "^1.1.0",
+    "sand-grain": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sand": "^1.1.3",
+    "sand-http": "^2.3.2",
+    "should": "^7.0.2"
+  }
+}
